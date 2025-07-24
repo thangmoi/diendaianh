@@ -2,13 +2,15 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Trang giới thiệu đơn giản</title>
+  <title>Website Giới Thiệu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
   <header>
-    <h1>Chào mừng đến với Website của tôi</h1>
+    <img src="logo.png" alt="Logo" class="logo">
+    <h1 id="site-title">...</h1>
     <nav>
       <a href="#">Trang chủ</a>
       <a href="#">Giới thiệu</a>
@@ -19,30 +21,29 @@
 
   <main>
     <section>
-      <h2>Giới thiệu</h2>
-      <p>Đây là trang web được viết bằng HTML & CSS cơ bản, tích hợp Zalo và Messenger chat.</p>
+      <h2 id="section-title">...</h2>
+      <p id="section-content">Đang tải nội dung...</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Website của bạn. All rights reserved.</p>
+    <p>&copy; 2025 Website của bạn.</p>
   </footer>
 
-  <!-- Nút Zalo Chat -->
+  <!-- Zalo -->
   <div class="zalo-chat-widget" data-oaid="YOUR_ZALO_OA_ID" data-welcome-message="Chào bạn!" data-autopopup="0" data-width="" data-height=""></div>
   <script src="https://sp.zalo.me/plugins/sdk.js"></script>
 
-  <!-- Facebook Messenger Chat Plugin -->
+  <!-- Messenger -->
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous"
     src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js"></script>
-
   <div class="fb-customerchat"
     attribution="setup_tool"
     page_id="YOUR_FACEBOOK_PAGE_ID"
-    theme_color="#0084ff"
-    logged_in_greeting="Xin chào! Tôi có thể giúp gì cho bạn?"
-    logged_out_greeting="Xin chào! Tôi có thể giúp gì cho bạn?">
+    theme_color="#0084ff">
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
