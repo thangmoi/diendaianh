@@ -1,5 +1,22 @@
 {
-  "siteTitle": "Chào mừng đến với Website của tôi",
-  "sectionTitle": "Giới thiệu",
-  "sectionContent": "Đây là trang web sử dụng HTML, CSS và JavaScript đơn giản. Nội dung được tải từ file JSON."
+  "index": {
+    "title": "Chào mừng đến với Website của tôi",
+    "heading": "Trang chủ",
+    "content": "Đây là trang chủ với thông tin tổng quan về website."
+  },
+  "about": {
+    "title": "Giới thiệu",
+    "heading": "Giới thiệu",
+    "content": "Chúng tôi là công ty chuyên cung cấp giải pháp đơn giản cho website cá nhân và doanh nghiệp nhỏ."
+  },
+  "products": {
+    "title": "Sản phẩm",
+    "heading": "Sản phẩm",
+    "content": "Các sản phẩm hiện có gồm: đèn LED, công tắc điện, ổ cắm... (ví dụ)"
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "heading": "Liên hệ",
+    "content": "Bạn có thể liên hệ qua Zalo, Facebook hoặc gửi email về contact@example.com."
+  }
 }
